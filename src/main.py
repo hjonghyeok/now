@@ -54,8 +54,6 @@ def callback(data):
         scanToPoint(radian, data.ranges[i])
         ranges = data.ranges[i]
 
-
-
 def getkey():
         fd = sys.stdin.fileno() 
         original_attributes = termios.tcgetattr(fd)
